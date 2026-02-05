@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Negeri 3 Gunungsitoli</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Internal -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom right, #d9c6ff, #a0c4ff);
+        }
+
+        header {
+            background: linear-gradient(to right, #5f2c82, #49a09d);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-weight: bold;
+            animation: fadeIn 2s;
+        }
+
+        .navbar {
+            background-color: #4a148c;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .school-img {
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+
+        .school-img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>SMK Negeri 3 Gunungsitoli</h1>
+    <p>Sekolah Kejuruan Unggul, Terampil, dan Berkarakter</p>
+</header>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">SMKN 3 Gunungsitoli</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">index</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="school.html">school</a></li>
+                <li class="nav-item"><a class="nav-link" href="pulau.html">pulau</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="section container text-center">
+    <h2 class="mb-4">Selamat Datang di Website Sekolah</h2>
+    <p>
+        Website ini menyajikan informasi mengenai SMK Negeri 3 Gunungsitoli sebagai
+        lembaga pendidikan kejuruan yang berkomitmen mencetak lulusan siap kerja,
+        berprestasi, dan berakhlak mulia.
+    </p>
+
+    <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+            <img src="img/school1.jpg" width="300" height="250" alt="school1.jpg">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img/school2.jpg" width="300" height="250" alt="school2.jpg">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img/school3.jpg" width="300" height="250" alt="school3.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section container">
+    <h2 class="text-center mb-4">Tentang SMK Negeri 3 Gunungsitoli</h2>
+
+    <div class="card p-4">
+        <p>
+            <strong>SMK Negeri 3 Gunungsitoli</strong> adalah salah satu Sekolah Menengah
+            Kejuruan negeri yang berada di Kota Gunungsitoli, Provinsi Sumatera Utara.
+            Sekolah ini berfokus pada pendidikan vokasi yang bertujuan membekali siswa
+            dengan keterampilan sesuai bidang keahlian masing-masing.
+        </p>
+
+        <p>
+            SMK Negeri 3 Gunungsitoli memiliki peran penting dalam mencetak sumber daya
+            manusia yang kompeten, terampil, dan siap bersaing di dunia kerja maupun
+            dunia industri. Proses pembelajaran didukung oleh guru profesional,
+            fasilitas sekolah, serta kegiatan praktik yang berorientasi pada keahlian.
+        </p>
+
+        <p><strong>Tujuan Pendidikan:</strong></p>
+        <ul>
+            <li>Menghasilkan lulusan yang siap kerja</li>
+            <li>Membentuk karakter disiplin dan bertanggung jawab</li>
+            <li>Mendorong siswa menjadi wirausaha muda</li>
+            <li>Mempersiapkan siswa melanjutkan pendidikan ke jenjang lebih tinggi</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section container text-center">
+    <h2 class="mb-4">Kontak Sekolah</h2>
+
+    <div class="card p-4">
+        <p><strong>Alamat:</strong> Kota Gunungsitoli, Sumatera Utara</p>
+        <p><strong>Email:</strong> smkn3gunungsitoli@sch.id</p>
+        <p><strong>Telepon:</strong> 08xx-xxxx-xxxx</p>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 SMK Negeri 3 Gunungsitoli</p>
+    <p>Website Informasi Sekolah</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
